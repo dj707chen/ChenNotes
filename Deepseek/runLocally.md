@@ -71,7 +71,7 @@ Once downloaded
 - double click "Cherry-Studio-0.9.21-arm64.dmg"
 
 ## 4 Configure CherryAI
-Configure `deepseek-r1:8b` in `CherryAI`:
+Configure `deepseek-r1:8b` in `CherryAI` ([Screeshot](configCherryAI.png)):
 - In `CherryAI`, click the Settings icon at left bottom;
 - Click `Ollama`;
 - Click the green button "Manage" at lower part, you will see "Ollama Models" dialog;
