@@ -70,6 +70,18 @@ Once downloaded
 - open Finder and go $HOME/Downloads,
 - double click "Cherry-Studio-0.9.21-arm64.dmg"
 
+## 4 Configure CherryAI
+Configure `deepseek-r1:8b` in `CherryAI`:
+- In `CherryAI`, click the Settings icon at left bottom;
+- Click `Ollama`;
+- Click the green button "Manage" at lower part, you will see "Ollama Models" dialog;
+- Click the green button "+" at the end right of "deepseek-r1:8b";
+- Close the "Ollama Models" dialog;
+- Click the "Chat" icon at top left (second from top);
+- Click the model icon next to "Default Assistant" at top；
+- Select "deepseek-r1:8b";
+- Now you can type questions at bottom.
+
 ## Add Deepseek-r1:8b model to CherryAI
 ## Notes
 
