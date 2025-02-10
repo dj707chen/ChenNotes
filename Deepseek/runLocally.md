@@ -22,9 +22,9 @@ sequenceDiagram
   SERVER->>R1: Question
   R1->>R1: Parse, divide
   R1->>LLM: Step question
-  LLM->>R1: Answer to step question
+  LLM->>R1: Answer
   R1->>LLM: Step question
-  LLM->>R1: Answer to step question
+  LLM->>R1: Answer
   R1->>R1: Repeat=Reasoning ...
   R1->>R1: Repeat=Reasoning ...
   R1->>SERVER: Answer
