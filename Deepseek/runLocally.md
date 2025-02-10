@@ -80,9 +80,8 @@ Configure `deepseek-r1:8b` in `CherryAI`:
 - Click the "Chat" icon at top left (second from top);
 - Click the model icon next to "Default Assistant" at top；
 - Select "deepseek-r1:8b";
-- Now you can type questions at bottom.
+- Now you can type questions at bottom, enjoy!
 
-## Add Deepseek-r1:8b model to CherryAI
 ## Notes
 
 Based on https://youtu.be/ZHm9IJQig4c?t=19
