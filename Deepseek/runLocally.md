@@ -14,16 +14,20 @@ sequenceDiagram
   actor USER as end_user
   participant UI as CherryAI
   participant SERVER as Ollama
-  participant LLM as deepseekr1:8b
+  participant R1 as deepseekr1:8b
+  participant LLM as deepseek-V3:8b
 
   USER->>UI: Question
   UI->>SERVER: Question
-  SERVER->>SERVER: Parse, divide
-  SERVER->>LLM: Step question
-  LLM->>SERVER: Answer to step question
-  SERVER->>LLM: Step question
-  LLM->>SERVER: Answer to step question
-  SERVER->>SERVER: Repeat=Reasoning
+  SERVER->>R1: Question
+  R1->>R1: Parse, divide
+  R1->>LLM: Step question
+  LLM->>R1: Answer to step question
+  R1->>LLM: Step question
+  LLM->>R1: Answer to step question
+  R1->>R1: Repeat=Reasoning ...
+  R1->>R1: Repeat=Reasoning ...
+  R1->>SERVER: Answer
   SERVER->>UI: Answer
   UI->>USER: Answer
 ```
