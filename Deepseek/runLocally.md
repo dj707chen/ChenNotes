@@ -53,10 +53,10 @@ Open Terminal, enter the following Shell command
     ollama pull deepseek-r1:8b
 
 Note: I got this command by
-    going to https://ollama.com/library/deepseek-r1,
-    select "8b",
-    click "Copy" icon,
-    replace "run" with "pull"
+- going to https://ollama.com/library/deepseek-r1,
+- select "8b",
+- click "Copy" icon,
+- replace "run" with "pull"
 
 This model has 8 billion parameters, its size is 4.9 GB only, our Mac has more than 16 GB memory.
 
