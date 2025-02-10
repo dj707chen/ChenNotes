@@ -6,7 +6,7 @@ Background: Just google "deepseek shake up AI technology" (with parenthesis)
 
 We need 3 pieces to run LLM locally:
 - LLM itself, we'll run a smaller version called `deepseek-r1:8b`;
-- A server hosting it, we'll use `Ollama`;
+- A server hosting LLM, we'll use `Ollama`;
 - A client (user interface) to interact with the hosting server, we'll use `CherryAI`.
 
 ```mermaid
@@ -18,12 +18,12 @@ sequenceDiagram
 
   USER->>UI: Question
   UI->>SERVER: Question
-  SERVER->>SERVER: Parse question, divide into step questions
+  SERVER->>SERVER: Parse, divide
   SERVER->>LLM: Step question
   LLM->>SERVER: Answer to step question
   SERVER->>LLM: Step question
   LLM->>SERVER: Answer to step question
-  SERVER->>SERVER: Repeat step questions, it's called "Reasoning"
+  SERVER->>SERVER: Repeat=Reasoning
   SERVER->>UI: Answer
   UI->>USER: Answer
 ```
