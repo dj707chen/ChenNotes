@@ -1,6 +1,7 @@
 # Run deepseek-R1 locally
 
 `Deepseek` LLMs (large language model) significantly reduced the resource requirements for both training and running LLMs, we can even run them on our Mac now.
+
 Background: Just google "deepseek shake up AI technology" (with parenthesis)
 
 We need 3 pieces to run LLM locally:
