@@ -14,7 +14,7 @@ sequenceDiagram
   actor USER as end_user
   participant UI as CherryAI
   participant SERVER as Ollama
-  participant R1 as deepseekr1:8b
+  participant R1 as deepseek-r1:8b
   participant LLM as deepseek-V3:8b
 
   USER->>UI: Question
